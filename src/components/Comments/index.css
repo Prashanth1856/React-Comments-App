@@ -1,0 +1,154 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.input-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 80%;
+}
+
+.statement {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.user-name {
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  outline: none;
+}
+
+.user-comment {
+  height: 100px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-comment-btn {
+  height: 30px;
+  width: 120px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-img {
+  order: 0;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+.h-line {
+  border: 1px solid #94a3b8;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.comments-count-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.comments-count {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.comments-tag {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.comments-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    margin-top: 96px;
+  }
+  .comments-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+  .heading {
+    font-size: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .input-comments-container {
+    flex-direction: row;
+  }
+  .input-container {
+    order: 0;
+    width: 440px;
+    margin-right: 60px;
+  }
+  .main-img {
+    order: 1;
+    width: 350px;
+    height: 250px;
+  }
+  .comments-count-container {
+    width: 700px;
+  }
+}
